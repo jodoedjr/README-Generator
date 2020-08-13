@@ -27,7 +27,7 @@
 
 ## License
 
-%%
+This repo is covered by the %% license
 
 
 ## Contributing
@@ -42,6 +42,6 @@
 
 ## Questions
 
-Find me on GitHub at: https://github.com/%%
+Find me on GitHub at: https://github.com/%% 
 Or email me at: %%
 
