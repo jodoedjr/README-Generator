@@ -1,4 +1,4 @@
-# README-Generator    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README-Generator    [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description 
 
@@ -17,17 +17,21 @@ This CLI JavaScript app guides users through creating a professional README.md f
 
 ## Installation
 
-clone the repo locally, and in the console run 'npm install' within the top level of that folder
+Clone the repo locally, and in the console run 'npm install' within the top level of that folder
 
 
 ## Usage 
 
 Within the project folder run `node index.js`
 
+![Example console after running application](/Assets/Capture.png)
+
+[Checkout this video (*hosted on Google Drive*) of me making this README!](https://drive.google.com/file/d/1oT5IB0q5SDbW708oie4eoZAXZ_0UCodC/view?usp=sharing)
+
 
 ## License
 
-This repo is covered by the MIT license
+This repo is covered by the Unlicense license
 
 
 ## Contributing
@@ -37,7 +41,7 @@ Feel free to clone/fork and modify this repository.
 
 ## Tests
 
-no tests are provided for this repositiory
+No tests are provided for this repositiory
 
 
 ## Questions
