@@ -24,7 +24,7 @@ Clone the repo locally, and in the console run 'npm install' within the top leve
 
 Within the project folder run `node index.js`
 
-![Example Usage](/Assets/Capture.png)
+![Example Usage](https://github.com/jodoedjr/README-Generator/blob/master/Assets/Capture.PNG)
 
 [Checkout this video (*hosted on Google Drive*) of me making this README!](https://drive.google.com/file/d/1oT5IB0q5SDbW708oie4eoZAXZ_0UCodC/view?usp=sharing)
 
