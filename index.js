@@ -16,17 +16,17 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Enter your project description: "
+        message: "Enter your project description: \n(\\ creates a newline, \`\` (backticks) formmat their contents as code)"
     },
     {
         type: "input",
         name: "install",
-        message: "Enter your project installation instructions: "
+        message: "Enter your project installation instructions: \n(\\ creates a newline, \`\` (backticks) formmat their contents as code)"
     },
     {
         type: "input",
         name: "usage",
-        message: "Enter your project usage information. This section can include examples, specific use cases, and screenshots!"
+        message: "Enter your project usage information. This section can include examples, specific use cases, and screenshots!\n(\\ creates a newline, \`\` (backticks) formmat their contents as code)"
     },
     {
         //Choose a license from a list of options - add a badge for that license at the top of the README, and a notice is added to the License section
@@ -38,12 +38,12 @@ const questions = [
     {
         type: "input",
         name: "contribution",
-        message: "Enter your project contribution guidelines. This section can include how to submit bugs/feature requests, workflow instructions, coding guidlines, instructions for pull requests, etc.\n"
+        message: "Enter your project contribution guidelines. \nThis section can include how to submit bugs/feature requests, workflow instructions, coding guidlines, instructions for pull requests, etc.\n"
     },
     {
         type: "input",
         name: "test",
-        message: "Enter your project test instructions: "
+        message: "Enter your project test instructions: \n(\\ creates a newline, \`\` (backticks) formmat their contents as code)"
     },
     {
         //Github user name - added to questions section, with a link
