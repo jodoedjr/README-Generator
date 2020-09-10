@@ -9,24 +9,24 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "Project Title: "
+        message: "Project Title:\n"
     },
     //Sections: Description, Installation, Usage, License, Contributing, Tests, and Questions
     //description, installation instructions, usage information, contribution guidelines, and test instructions
     {
         type: "input",
         name: "description",
-        message: "Enter your project description: \n(\\ creates a newline, \`\` (backticks) formmat their contents as code)"
+        message: "Enter your project description: \n(\\ at the end of a line creates a newline, \`\` (backticks) format their contents as code)n"
     },
     {
         type: "input",
         name: "install",
-        message: "Enter your project installation instructions: \n(\\ creates a newline, \`\` (backticks) formmat their contents as code)"
+        message: "Enter your project installation instructions: \n(\\ at the end of a line creates a newline, \`\` (backticks) format their contents as code)\n"
     },
     {
         type: "input",
         name: "usage",
-        message: "Enter your project usage information. This section can include examples, specific use cases, and screenshots!\n(\\ creates a newline, \`\` (backticks) formmat their contents as code)"
+        message: "Enter your project usage information. This section can include examples, specific use cases, and screenshots!\n(\\ at the end of a line creates a newline, \`\` (backticks) formmat their contents as code)\n"
     },
     {
         //Choose a license from a list of options - add a badge for that license at the top of the README, and a notice is added to the License section
@@ -38,24 +38,24 @@ const questions = [
     {
         type: "input",
         name: "contribution",
-        message: "Enter your project contribution guidelines. \nThis section can include how to submit bugs/feature requests, workflow instructions, coding guidlines, instructions for pull requests, etc.\n"
+        message: "Enter your project contribution guidelines. \nThis section can include how to submit bugs/feature requests, workflow instructions, coding guidelines, instructions for pull requests, etc.\n"
     },
     {
         type: "input",
         name: "test",
-        message: "Enter your project test instructions: \n(\\ creates a newline, \`\` (backticks) formmat their contents as code)"
+        message: "Enter your project test instructions: \n(\\ at the end of a line creates a newline, \`\` (backticks) format their contents as code)"
     },
     {
         //Github user name - added to questions section, with a link
         type: "input",
         name: "github",
-        message: "Enter your GitHub user name: "
+        message: "Enter your GitHub user name:\n"
     },
     {
         //Email address - added to questions sections, with instructions on how to reach out with additional questions
         type: "input",
         name: "email",
-        message: "Enter an email for user questions (or leave blank): "
+        message: "Enter an email for user questions (or leave blank):\n"
     },
     //README has table of contents with links to sections
 ];
